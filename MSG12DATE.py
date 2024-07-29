@@ -21,8 +21,8 @@ def detect_baud_rate(ser):
             return baud_rate
     return None
 
-ser_read = setup_serial('COM10', 1200)
-ser_write = setup_serial('COM9', 1200)
+ser_read = setup_serial('COM7', 1200)
+ser_write = setup_serial('COM4', 1200)
 test = 0
 compteur = 1
 while True:
